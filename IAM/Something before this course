@@ -1,0 +1,10 @@
+# Some word before the real lesson
+* AWS metaphor: You simply **rent** the computing power over the internet. You don't build your own power plant.
+* Why use it? 
+  - On demand
+  - Scalability
+  - Global reach
+* The big 3 Service
+  - EC2: compute, a virtual computer
+  - S3: storage, a giant **hard drive** in the sky
+  - VPC: networking
