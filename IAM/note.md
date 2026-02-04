@@ -1,7 +1,5 @@
 # IAM (Identity and Access Management) Notes
 
-# IAM: Identity and Access Management
-
 ## Summary
 IAM manages access to AWS resources. It is a **Global Service**.
 
@@ -14,3 +12,20 @@ IAM manages access to AWS resources. It is a **Global Service**.
 ## Terminology
 - **Policy**: A JSON document defining permissions.
 - **Principle of Least Privilege**: Give only the access required, nothing more.
+
+## IAM Permissions
+- Users or Groups can be assigned JSON docluments calleld **policies**
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "ec2:Describe*",
+            "Resource": "*"},
+        {},
+        {}
+    ],
+}
+```
+- Don't give more permissions than a user needs.
